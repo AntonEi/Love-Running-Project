@@ -319,7 +319,25 @@ main {
     #photos {
         column-count: 3;
     }
-} 
+
+    /* signup page */
+}   #signup {
+      background-position: center;
+      position: relative;
+    }
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        left: 10%;
+        top: 150px;
+    }
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {  
